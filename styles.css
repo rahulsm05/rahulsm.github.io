@@ -1,0 +1,58 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #0a5fff;
+    color: white;
+    padding: 1rem;
+}
+
+/* Hero Section */
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.feature {
+    background-color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0a5fff;
+    color: white;
+}
+
+/* Responsive: Mobile View */
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature {
+        width: 90%;
+    }
+}
